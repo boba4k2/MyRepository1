@@ -1,0 +1,10 @@
+^D:\NSU\INTRODUTCION_TO_OOP\MYREPOSITORY1\HELLOWORLD\BUILD\CMAKEFILES\F74886093F4676AB781EF2B748ADF043\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld -BD:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

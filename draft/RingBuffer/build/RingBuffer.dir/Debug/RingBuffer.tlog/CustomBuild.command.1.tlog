@@ -1,0 +1,10 @@
+^D:\NSU\INTRODUTCION_TO_OOP\HW\RINGBUFFER\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/NSU/Introdutcion_to_OOP/HW/RingBuffer -BD:/NSU/Introdutcion_to_OOP/HW/RingBuffer/build --check-stamp-file D:/NSU/Introdutcion_to_OOP/HW/RingBuffer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

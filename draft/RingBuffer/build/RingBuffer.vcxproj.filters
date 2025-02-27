@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\NSU\Introdutcion_to_OOP\HW\RingBuffer\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\NSU\Introdutcion_to_OOP\HW\RingBuffer\src\CircularBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\NSU\Introdutcion_to_OOP\HW\RingBuffer\src\CircularBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\NSU\Introdutcion_to_OOP\HW\RingBuffer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ECA4A3AC-1C27-3D06-924C-AA7001A32DB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{00F7B5FB-D4FE-377E-AD4B-7F6C6FCBB0B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

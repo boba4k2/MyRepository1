@@ -1,0 +1,3 @@
+D:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld/build/CMakeFiles/my_project.dir
+D:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld/build/CMakeFiles/ALL_BUILD.dir
+D:/NSU/Introdutcion_to_OOP/MyRepository1/helloworld/build/CMakeFiles/ZERO_CHECK.dir
